@@ -1,8 +1,10 @@
 # RUN
 
 
-git clone https://github.com/MR-NAYAN-404/OLD
+rm -rf AWTO_COOKIES
 
-cd OLD
+git clone https://github.com/MR-NAYAN-404/AWTO_COOKIES
 
-python OLD_V3.py
+cd AWTO_COOKIES
+
+python NAYAN.py
