@@ -1,12 +1,12 @@
-import os,platform,time
+import os,platform,time,requests
 
 bitt=platform.architecture()[0]
 
 if bitt=="64bit":
-	ip = requests.get("https://api.ipify.org").text
+    ip = requests.get("https://api.ipify.org").text
     os.system('clear');print('[!] Your Device is 64 bit');time.sleep(1);print('\n\n[!] Your Ip : {ip}');time.sleep(1);print('\n\n[!] Your Python Version :');time.sleep(1);os.system('python --version')
     time.sleep(2)
-    import MX.mahadi
+    import cooking
 
 else:
 
