@@ -58,7 +58,6 @@ if bitt=="64bit":
 	wa = random.choice(my_color)
 	ip = requests.get("https://api.ipify.org").text
     os.system('clear');print(f'➥➥➣{wa}Your Device is 64 bit');time.sleep(1);print(f'\n\n➥➥➣{wa} Your Python Version :');time.sleep(1);os.system('python --version')
-    print(f'\n\n{wa}➥➥➣IP  : {ip}')
     time.sleep(2)
     import cooking
 
