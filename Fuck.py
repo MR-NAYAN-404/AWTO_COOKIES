@@ -1,4 +1,4 @@
-import os,platform,time,requests
+import os,platform,time,requests,random
 P = "\x1b[1;97m"
 M = "\x1b[1;91m"
 H = "\x1b[1;92m"
