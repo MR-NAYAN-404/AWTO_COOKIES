@@ -9,7 +9,7 @@ O = '\x1b[1;96m'
 N = '\x1b[0m'    
 Z = "\033[1;30m"
 my_color = [
- M, H, K, B, U, O, N, A]
+ M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 wa = random.choice(my_color)
 nm = random.choice([m,k,h,u,b])
